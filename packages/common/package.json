@@ -1,0 +1,25 @@
+{
+  "name": "@packages/common",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Luca Demmel",
+  "license": "MIT",
+  "dependencies": {
+    "@middy/core": "^2.4.3",
+    "@middy/do-not-wait-for-empty-event-loop": "^2.4.3",
+    "@middy/http-cors": "^2.4.3",
+    "@middy/http-error-handler": "^2.4.3",
+    "@middy/http-event-normalizer": "^2.4.3",
+    "@middy/http-json-body-parser": "^2.4.3",
+    "date-fns": "^2.22.1",
+    "logzio-nodejs": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.78",
+    "joi": "^17.4.2"
+  },
+  "peerDependencies": {
+    "joi": "^17.4.2",
+    "lambda-api": "^0.11.1"
+  }
+}

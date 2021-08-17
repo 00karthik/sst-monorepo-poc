@@ -1,0 +1,9 @@
+{
+    "name": "pms-integrations",
+    "stage": "dev",
+    "region": "eu-central-1",
+    "lint": true,
+    "typeCheck": true,
+    "esbuildConfig": "esbuild.config.js"
+  }
+  
