@@ -1,0 +1,1 @@
+Try hitting endpoint /trip/app
